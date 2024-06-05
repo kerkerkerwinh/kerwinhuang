@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerwin Huang's Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: linear-gradient(to right, #00b09b, #96c93d);
+            color: white;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 0;
+            font-weight: 300;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #00b09b;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #96c93d;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #00b09b;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info li i {
+            margin-right: 10px;
+        }
+
+        .contact-info a {
+            color: #00b09b;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #96c93d;
+            transform: scale(1.05);
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            background-color: #00b09b;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #back-to-top:hover {
+            background-color: #96c93d;
+        }
+
+        .profile-image {
+            display: block;
+            margin: 0 auto 20px auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                width: 95%;
+                padding: 5px;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            header p {
+                font-size: 0.9em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="pfp.JPG" alt="Kerwin Huang" class="profile-image">
+            <h1>Kerwin Huang</h1>
+            <p>Software Engineer</p>
+        </header>
+        
+        <nav>
+            <a href="#experience">Experience</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#summary">Summary</a>
+        </nav>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>OC United</h3>
+            <p><strong>2024 - Present</strong></p>
+            <p>OC United is partnering with us to develop a website for Fullerton Housing, aimed at introducing over 10,000 residents to the community's lifestyle and amenities. This project is supported by the City of Fullerton and local businesses to enhance neighborhood engagement and connectivity.</p>
+            <ul>
+                <li>Led a team to develop and launch the Fullerton Housing website, enhancing community engagement and online presence.</li>
+                <li>Designed and implemented a user-friendly website interface, ensuring an optimal balance of aesthetics and functionality, which increased user satisfaction ratings by 30%.</li>
+                <li>Integrated a robust search engine on the website, enabling users to easily find relevant videos by keywords, which enhanced user engagement by 40%.</li>
+                <li>Optimized website performance, achieving a 50% reduction in load times and a 20% increase in daily traffic.</li>
+            </ul>
+
+            <h3>Online Communication Application</h3>
+            <p><strong>2022</strong></p>
+            <p>This project focuses on enhancing the DS program by integrating NaCl encryption for secure messaging and transitioning to a graphical user interface with Tkinter. The goal is to improve security through public and private key encryption and enhance user experience by providing a more interactive interface.</p>
+            <ul>
+                <li>Led the enhancement of the DS program, overseeing the integration of NaCl encryption to secure communications and improve privacy.</li>
+                <li>Developed a graphical user interface with Tkinter, transitioning the application from a command-line to a visually engaging user interface.</li>
+                <li>Implemented secure data transfer protocols, utilizing public and private key encryption to ensure the safety of local and online communications.</li>
+                <li>Engineered network communication solutions using JSON and sockets, optimizing data exchange and system responsiveness.</li>
+            </ul>
+        </section>
+
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <ul class="contact-info">
+                <li><i class="fab fa-linkedin"></i>LinkedIn: <a href="https://www.linkedin.com/in/kerwinhuang">https://www.linkedin.com/in/kerwinhuang</a></li>
+                <li><i class="fas fa-envelope"></i>Email: <a href="mailto:kerwin773717141@gmail.com">kerwin773717141@gmail.com</a></li>
+                <li><i class="fas fa-phone"></i>Phone: <a href="tel:949-394-2044">949-394-2044</a></li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Computer Science, B.S.</strong></p>
+            <p>University of California, Irvine (2021 - Present)</p>
+            <p>Dean’s List</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Python, C++, UI/UX, HTML, CSS, Javascript, React, SQL, Linux, Communication skills, Time management, Bilingual, Leadership</p>
+        </section>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Motivated intern with proficiency in programming, development, data entry, and records management. Pursuing a degree in Computer Science and have strong self-discipline and teamwork skills. Always maintain a high level of confidentiality and professionalism, with a team focus. Possesses a strong sense of creativity. Respect for any race, color, and gender.</p>
+        </section>
+    </div>
+
+    <button id="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.getElementById('back-to-top');
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
